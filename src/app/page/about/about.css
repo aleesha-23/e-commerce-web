@@ -1,0 +1,18 @@
+.about-aura .top-yellow {
+  background-color: #FFC917; /* Vibrant Yellow */
+  color: #1c1c1c;
+}
+
+.about-aura .bottom-grey {
+  background-color: #f4f4f4; /* Soft Grey */
+  color: #333;
+}
+
+.about-aura h2, .about-aura h3, .about-aura h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-aura img {
+  border-radius: 12px;
+  object-fit: cover;
+}

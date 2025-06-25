@@ -1,0 +1,31 @@
+.catalog-section {
+  font-family: 'Poppins', sans-serif;
+}
+
+.top-yellow {
+  background-color: #FFC917; /* Vibrant Yellow */
+  color: #1c1c1c;
+  padding: 40px 20px;
+}
+
+.bottom-grey {
+  background-color: #f4f4f4; /* Soft Grey */
+  color: #333;
+  padding: 40px 20px;
+}
+
+.top-yellow h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.top-yellow p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}

@@ -1,0 +1,28 @@
+.aura-carousel-container {
+  background-color: #BA1010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+#carouselExampleIndicators {
+  width: 70%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark bg */
+  border-radius: 12px;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFD700; /* Golden */
+}
+.carousel-caption p {
+  font-size: 1.1rem;
+  color: #fff;
+}

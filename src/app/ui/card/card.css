@@ -1,0 +1,62 @@
+.catalog-section {
+  background-color: #fffbea; /* Very light yellow */
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  background-color: #fffdf5; /* Slightly creamy yellow */
+  border: 1px solid #ffeaa7;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffcf40;
+  z-index: 10;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-dark {
+  background-color: #1c1c1c;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+/* Tooltip container */
+.card[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* Hide tooltip by default */
+.card[data-tooltip]::after {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
